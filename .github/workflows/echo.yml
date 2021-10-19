@@ -6,6 +6,7 @@ on:
     - main
     - test
   pull_request:
+    branches:
     - main
 
   # Allow manual
