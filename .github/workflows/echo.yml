@@ -19,3 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run a one-line script
         run: echo Hello Action
+      - name: Run a multiline script
+        run: |
+          whoami
+          env
